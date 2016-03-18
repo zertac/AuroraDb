@@ -1,8 +1,8 @@
 # AuroraDb
 ### Simple MySql / SqlServer / Oracle Database Connection Library for .NET
 
-#### Supported databases : MySql , MSSql Server , Oracle
-#### Return Types : JSON , List(object) , DataTable , XML
+> **Supported databases:** MySql , MSSql Server , Oracle
+> **Supported databases:** JSON , List(object) , DataTable , XML (not yet)
 
 ## Using
 
