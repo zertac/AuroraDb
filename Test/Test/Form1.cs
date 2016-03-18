@@ -21,22 +21,48 @@ namespace Test
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AuroraDb.Main.AddConnection(ConnectionTypes.SQL_SERVER, " Server = DESKTOP-serv\\SQLEXPRESS; Database =test_db; User Id = sertac;Password = 12345;");
-            AuroraDb.Main.AddQuery(ConnectionTypes.SQL_SERVER, "cards", "SELECT [TOTAL_CARD],[TOTAL_SOLD] ,[TOTAL_LEFT] FROM[example_table].[dbo].[v_card_stock]");
+          
 
-            var res = AuroraDb.Main.ExecuteCommand(ConnectionTypes.SQL_SERVER, "cards", ReturnTypes.DataTable, new List<DbParam>());
+            var res = AuroraDb.Main.ExecuteCommand((ConnectionTypes)cmbDatabase.SelectedIndex, "cards", (ReturnTypes)cmbReturnType.SelectedIndex, new List<DbParam>());
 
-            tbl.DataSource = res;
+            switch ((ReturnTypes)cmbReturnType.SelectedIndex)
+            {
+                case ReturnTypes.DataTable:
+                    tbl.DataSource = res;
+                    break;
+                case ReturnTypes.JsonString:
+                    txtResultText.Text = res.ToString();
+                    break;
+                case ReturnTypes.List:
+                    lblTotal.Text = ((List<Dictionary<string, object>>)res).Count.ToString();
+                    break;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            var prms = new List<DbParam>
+            {
+                new DbParam{ key = "USER_NAME",value = "test"},
+                new DbParam{ key = "PASS",value = "12345"}
+            };
 
+
+            var res = AuroraDb.Main.ExecuteCommand((ConnectionTypes)cmbDatabase.SelectedIndex, "cards", (ReturnTypes)cmbReturnType.SelectedIndex, prms);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            cmbReturnType.SelectedIndex = 0;
+            cmbDatabase.SelectedIndex = 2;
+
+            AuroraDb.Main.AddConnection((ConnectionTypes)cmbDatabase.SelectedIndex, "Server = DESKTOP-2OBTFN2\\SQLEXPRESS; Database = ipss_tes; User Id = sertac;Password = exitexit1;");
+            AuroraDb.Main.AddQuery((ConnectionTypes)cmbDatabase.SelectedIndex, "cards", "SELECT [TOTAL_CARD],[TOTAL_SOLD] ,[TOTAL_LEFT] FROM[ipss_tes].[dbo].[v_card_stock]");
         }
     }
 }
