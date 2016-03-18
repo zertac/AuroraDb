@@ -1,14 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using AuroraDb.DataClasses;
 using AuroraDb.enums;
 using MySql.Data.MySqlClient;
-using Oracle.DataAccess.Client;
 
 namespace AuroraDb.Connectors
 {

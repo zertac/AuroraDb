@@ -58,7 +58,6 @@
   <ItemGroup>
     <Compile Include="AuroraConfig.cs" />
     <Compile Include="DataClasses\DataQueries.cs" />
-    <Compile Include="DataClasses\DbEngine.cs" />
     <Compile Include="DataClasses\DbParam.cs" />
     <Compile Include="enums\Connections.cs" />
     <Compile Include="enums\ReturnTypes.cs" />

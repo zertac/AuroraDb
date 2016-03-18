@@ -21,8 +21,6 @@ namespace Test
 
         private void button1_Click(object sender, EventArgs e)
         {
-          
-
             var res = AuroraDb.Main.ExecuteCommand((ConnectionTypes)cmbDatabase.SelectedIndex, "cards", (ReturnTypes)cmbReturnType.SelectedIndex, new List<DbParam>());
 
             switch ((ReturnTypes)cmbReturnType.SelectedIndex)
@@ -37,23 +35,6 @@ namespace Test
                     lblTotal.Text = ((List<Dictionary<string, object>>)res).Count.ToString();
                     break;
             }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            var prms = new List<DbParam>
-            {
-                new DbParam{ key = "USER_NAME",value = "test"},
-                new DbParam{ key = "PASS",value = "12345"}
-            };
-
-
-            var res = AuroraDb.Main.ExecuteCommand((ConnectionTypes)cmbDatabase.SelectedIndex, "cards", (ReturnTypes)cmbReturnType.SelectedIndex, prms);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
