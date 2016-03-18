@@ -8,6 +8,7 @@
 * Call ExecuteCommand()
 
 '''c#
+
    AuroraDb.Main.AddConnection(ConnectionTypes.SQL_SERVER, " Server = DESKTOP-serv\\SQLEXPRESS; Database =test_db; User Id = sertac;Password = 12345;");
             AuroraDb.Main.AddQuery(ConnectionTypes.SQL_SERVER, "cards", "SELECT [TOTAL_CARD],[TOTAL_SOLD] ,[TOTAL_LEFT] FROM[example_table].[dbo].[v_card_stock]");
 
