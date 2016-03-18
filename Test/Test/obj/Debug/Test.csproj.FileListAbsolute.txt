@@ -1,0 +1,14 @@
+C:\Projects\AuroraDb\Test\Test\bin\Debug\Test.exe.config
+C:\Projects\AuroraDb\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Projects\AuroraDb\Test\Test\obj\Debug\Test.Form1.resources
+C:\Projects\AuroraDb\Test\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Projects\AuroraDb\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+C:\Projects\AuroraDb\Test\Test\bin\Debug\Test.exe
+C:\Projects\AuroraDb\Test\Test\bin\Debug\Test.pdb
+C:\Projects\AuroraDb\Test\Test\bin\Debug\AuroraDb.dll
+C:\Projects\AuroraDb\Test\Test\bin\Debug\MySql.Data.dll
+C:\Projects\AuroraDb\Test\Test\bin\Debug\Oracle.DataAccess.dll
+C:\Projects\AuroraDb\Test\Test\bin\Debug\LitJson.dll
+C:\Projects\AuroraDb\Test\Test\bin\Debug\AuroraDb.pdb
+C:\Projects\AuroraDb\Test\Test\obj\Debug\Test.exe
+C:\Projects\AuroraDb\Test\Test\obj\Debug\Test.pdb

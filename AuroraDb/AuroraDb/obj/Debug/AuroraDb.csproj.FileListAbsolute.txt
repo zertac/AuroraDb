@@ -1,0 +1,11 @@
+C:\Projects\AuroraDb\AuroraDb\AuroraDb\bin\Debug\AuroraDb.dll
+C:\Projects\AuroraDb\AuroraDb\AuroraDb\bin\Debug\AuroraDb.pdb
+C:\Projects\AuroraDb\AuroraDb\AuroraDb\bin\Debug\LitJson.dll
+C:\Projects\AuroraDb\AuroraDb\AuroraDb\bin\Debug\mysql.data.dll
+C:\Projects\AuroraDb\AuroraDb\AuroraDb\bin\Debug\mysql.visualstudio.dll
+C:\Projects\AuroraDb\AuroraDb\AuroraDb\bin\Debug\mysql.web.dll
+C:\Projects\AuroraDb\AuroraDb\AuroraDb\bin\Debug\Oracle.DataAccess.dll
+C:\Projects\AuroraDb\AuroraDb\AuroraDb\bin\Debug\Microsoft.MSXML.dll
+C:\Projects\AuroraDb\AuroraDb\AuroraDb\obj\Debug\AuroraDb.csprojResolveAssemblyReference.cache
+C:\Projects\AuroraDb\AuroraDb\AuroraDb\obj\Debug\AuroraDb.dll
+C:\Projects\AuroraDb\AuroraDb\AuroraDb\obj\Debug\AuroraDb.pdb
