@@ -14,3 +14,9 @@ C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\obj\Debug\AuroraDb.pdb
 C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\bin\Debug\AuroraDb.dll
 C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\bin\Debug\AuroraDb.pdb
 C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\bin\Debug\Microsoft.MSXML.dll
+C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\bin\Debug\LitJson.dll
+C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\bin\Debug\mysql.data.dll
+C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\bin\Debug\mysql.visualstudio.dll
+C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\bin\Debug\mysql.web.dll
+C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\bin\Debug\Oracle.DataAccess.dll
+C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\obj\Debug\AuroraDb.csprojResolveAssemblyReference.cache

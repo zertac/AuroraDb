@@ -30,21 +30,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LitJson">
-      <HintPath>..\..\..\WebApi\Ent\Ent\bin\LitJson.dll</HintPath>
+    <Reference Include="LitJson, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dlls\LitJson.dll</HintPath>
     </Reference>
-    <Reference Include="mysql.data">
-      <HintPath>..\..\..\aysa\AysaOrg\AysaOrg\bin\mysql.data.dll</HintPath>
+    <Reference Include="mysql.data, Version=5.2.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dlls\mysql.data.dll</HintPath>
     </Reference>
-    <Reference Include="mysql.visualstudio">
-      <HintPath>..\..\..\aysa\AysaOrg\AysaOrg\bin\mysql.visualstudio.dll</HintPath>
+    <Reference Include="mysql.visualstudio, Version=5.2.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dlls\mysql.visualstudio.dll</HintPath>
     </Reference>
-    <Reference Include="mysql.web">
-      <HintPath>..\..\..\aysa\AysaOrg\AysaOrg\bin\mysql.web.dll</HintPath>
+    <Reference Include="mysql.web, Version=5.2.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dlls\mysql.web.dll</HintPath>
     </Reference>
     <Reference Include="Oracle.DataAccess, Version=2.112.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\WebApi\Ent\Ent\bin\Oracle.DataAccess.dll</HintPath>
+      <HintPath>dlls\Oracle.DataAccess.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -66,6 +70,13 @@
     <Compile Include="Connectors\AMySqlConnector.cs" />
     <Compile Include="Connectors\AOracleConnector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dlls\LitJson.dll" />
+    <Content Include="dlls\mysql.data.dll" />
+    <Content Include="dlls\mysql.visualstudio.dll" />
+    <Content Include="dlls\mysql.web.dll" />
+    <Content Include="dlls\Oracle.DataAccess.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
