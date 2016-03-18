@@ -12,7 +12,7 @@ using Oracle.DataAccess.Client;
 
 namespace AuroraDb.Connectors
 {
-    public class AMySqlConnector
+    internal class AMySqlConnector
     {
         private MySqlConnection _dnCon;
 

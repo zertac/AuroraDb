@@ -7,8 +7,8 @@ using AuroraDb.enums;
 
 namespace AuroraDb
 {
-    public static class AuroraConfig
+    internal static class AuroraConfig
     {
-        public static Dictionary<ConnectionTypes, string> ConnectionStrings = new Dictionary<ConnectionTypes, string>();
+        internal static Dictionary<ConnectionTypes, string> ConnectionStrings = new Dictionary<ConnectionTypes, string>();
     }
 }

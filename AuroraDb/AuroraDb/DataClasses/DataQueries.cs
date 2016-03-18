@@ -7,7 +7,7 @@ using AuroraDb.enums;
 
 namespace AuroraDb.DataClasses
 {
-    public static class DataQueries
+    internal static class DataQueries
     {
         public static Dictionary<ConnectionTypes, Dictionary<string, string>> Queries = new Dictionary<ConnectionTypes, Dictionary<string, string>>();
 

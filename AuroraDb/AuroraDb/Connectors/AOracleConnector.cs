@@ -11,7 +11,7 @@ using Oracle.DataAccess.Client;
 
 namespace AuroraDb.Connectors
 {
-    public class AOracleConnector
+    internal class AOracleConnector
     {
         private OracleConnection _dnCon;
 

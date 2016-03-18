@@ -9,3 +9,8 @@ C:\Projects\AuroraDb\AuroraDb\AuroraDb\bin\Debug\Microsoft.MSXML.dll
 C:\Projects\AuroraDb\AuroraDb\AuroraDb\obj\Debug\AuroraDb.csprojResolveAssemblyReference.cache
 C:\Projects\AuroraDb\AuroraDb\AuroraDb\obj\Debug\AuroraDb.dll
 C:\Projects\AuroraDb\AuroraDb\AuroraDb\obj\Debug\AuroraDb.pdb
+C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\obj\Debug\AuroraDb.dll
+C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\obj\Debug\AuroraDb.pdb
+C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\bin\Debug\AuroraDb.dll
+C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\bin\Debug\AuroraDb.pdb
+C:\Users\sfaso\Documents\AuroraDb\AuroraDb\AuroraDb\bin\Debug\Microsoft.MSXML.dll
