@@ -14,10 +14,10 @@
 
 ```cs
 
-AuroraDb.Main.AddConnection(ConnectionTypes.SQL_SERVER, " Server = DESKTOP-serv\\SQLEXPRESS; Database =test_db; User Id = sertac;Password = 12345;");
-AuroraDb.Main.AddQuery(ConnectionTypes.SQL_SERVER, "cards", "SELECT [TOTAL_CARD],[TOTAL_SOLD] ,[TOTAL_LEFT] FROM[example_table].[dbo].[v_card_stock]");
+AuroraDb.Main.AddConnection(ConnectionTypes.SQL_SERVER, "[CONNECTION_STRING]");
+AuroraDb.Main.AddQuery(ConnectionTypes.SQL_SERVER, "[UNIQUE_QUERY_ID]", "[QUERY_STRING]");
 
-var res = AuroraDb.Main.ExecuteCommand(ConnectionTypes.SQL_SERVER, "cards", ReturnTypes.DataTable, new List<DbParam>());
+var res = AuroraDb.Main.ExecuteCommand(ConnectionTypes.SQL_SERVER, "[UNIQUE_QUERY_ID]", ReturnTypes.DataTable, new List<DbParam>());
 
 tbl.DataSource = res;
 ```
