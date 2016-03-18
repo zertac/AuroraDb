@@ -1,5 +1,8 @@
 # AuroraDb - Simple MySql / SqlServer / Oracle Database Connection Library
 
+#### Supported databases : MySql , MSSql Server , Oracle
+#### Return Types : JSON , List(object) , DataTable , XML
+
 ## Using
 
 * Add AuroraDb to your project as project reference
@@ -15,4 +18,14 @@ AuroraDb.Main.AddQuery(ConnectionTypes.SQL_SERVER, "cards", "SELECT [TOTAL_CARD]
 var res = AuroraDb.Main.ExecuteCommand(ConnectionTypes.SQL_SERVER, "cards", ReturnTypes.DataTable, new List<DbParam>());
 
 tbl.DataSource = res;
+```
+## Using with parameters
+```cs
+ var prms = new List<DbParam>
+            {
+                new DbParam{ key = "USER_NAME",value = "test"},
+                new DbParam{ key = "PASS",value = "12345"}
+            };
+
+var res = AuroraDb.Main.ExecuteCommand(ConnectionTypes.SQL_SERVER, "cards", ReturnTypes.JsonString, prms);
 ```
